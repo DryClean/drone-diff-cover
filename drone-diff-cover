@@ -1,0 +1,2 @@
+#!/bin/sh
+diff-cover $PLUGIN_COVERAGE --compare-branch=$(ls $PLUGIN_COMPARE_BRANCH) > $PLUGIN_OUTPUT
